@@ -1,0 +1,85 @@
+# =============================================
+# Python
+# =============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =============================================
+# Security — NEVER commit secrets or keys
+# =============================================
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*_rsa
+*_rsa.pub
+*.ppk
+aws_credentials
+.env
+.env.*
+prod.env
+secrets/
+original_secrets/
+*secret*
+*password*
+*credential*
+
+# =============================================
+# Databases & logs
+# =============================================
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+honeypot_logs/
+attack_logs/
+
+# =============================================
+# OS files
+# =============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =============================================
+# Editor / IDE
+# =============================================
+.vscode/
+.idea/
+*.suo
+*.swp
+*.swo
+
+# =============================================
+# Node (if any JS tooling used)
+# =============================================
+node_modules/
+
+# =============================================
+# Misc
+# =============================================
+opencode.jsonc
+.coverage
+htmlcov/
